@@ -25,7 +25,7 @@ The project focuses on:
 ✅ Business Insights Generation  
 ✅ Query Optimization  
 ✅ PostgreSQL Database Management  
-✅ Git & GitHub Workflow
+✅ Git & GitHub Workflow  
 
 This repository demonstrates practical SQL skills used in real-world Data Analyst and Business Analyst roles.
 
@@ -38,13 +38,11 @@ This repository demonstrates practical SQL skills used in real-world Data Analys
 ✔ Generate Business Insights  
 ✔ Improve Query Optimization Skills  
 ✔ Build a Resume-Ready Data Project  
-✔ Create a Professional GitHub Portfolio Project
+✔ Create a Professional GitHub Portfolio Project  
 
 ---
 
 # 🛠 Tech Stack
-
-<div align="center">
 
 | Technology | Purpose |
 |---|---|
@@ -53,8 +51,6 @@ This repository demonstrates practical SQL skills used in real-world Data Analys
 | 🖥 pgAdmin 4 | Database GUI |
 | 🌳 Git | Version Control |
 | 🚀 GitHub | Project Hosting |
-
-</div>
 
 ---
 
@@ -82,28 +78,34 @@ spotify-sql-analysis/
 │
 ├── README.md
 └── .gitignore
+```
 
+---
 
-📊 Dataset Information
+# 📊 Dataset Information
 
 The dataset contains Spotify music track information including:
 
-🎵 Track Name
-🎤 Artist Name
-💿 Album Name
-📈 Popularity Score
-⚡ Energy
-💃 Danceability
-🔊 Loudness
-🎚 Tempo
-🎼 Genre
-🎧 Explicit Content
-🎹 Instrumentalness
-🎙 Speechiness
-📻 Acousticness
-⏱ Duration
+🎵 Track Name  
+🎤 Artist Name  
+💿 Album Name  
+📈 Popularity Score  
+⚡ Energy  
+💃 Danceability  
+🔊 Loudness  
+🎚 Tempo  
+🎼 Genre  
+🎧 Explicit Content  
+🎹 Instrumentalness  
+🎙 Speechiness  
+📻 Acousticness  
+⏱ Duration  
 
-🗄 Database Schema
+---
+
+# 🗄 Database Schema
+
+```sql
 CREATE TABLE spotify (
     id INT,
     track_id TEXT,
@@ -127,87 +129,135 @@ CREATE TABLE spotify (
     time_signature INT,
     track_genre TEXT
 );
-🔥 SQL Concepts Used
-<div align="center">
-Concept	Status
-SELECT Queries	✅
-Filtering	✅
-Aggregations	✅
-GROUP BY	✅
-ORDER BY	✅
-Subqueries	✅
-CTEs	✅
-Window Functions	✅
-CASE Statements	✅
-Query Optimization	✅
-Indexing	✅
-</div>
-📈 Analysis Performed
-🟢 Basic Analysis
-Total number of tracks
-Most popular songs
-Genre distribution
-Track frequency analysis
-Explicit vs Non-explicit songs
-🟡 Intermediate Analysis
-Average danceability by genre
-Average energy analysis
-Longest songs
-Genre popularity trends
-Artist analysis
-🔴 Advanced Analysis
-Top 3 songs per genre using Window Functions
-CTE based analytics
-Above-average popularity songs
-Energy vs Danceability insights
-Query optimization with indexes
-💡 Business Insights Generated
+```
 
-📌 Most popular music genres
-📌 Most energetic genres
-📌 Impact of explicit songs on popularity
-📌 User listening behavior trends
-📌 High engagement music characteristics
+---
 
-⚡ Query Optimization
+# 🔥 SQL Concepts Used
+
+| Concept | Status |
+|---|---|
+| SELECT Queries | ✅ |
+| Filtering | ✅ |
+| Aggregations | ✅ |
+| GROUP BY | ✅ |
+| ORDER BY | ✅ |
+| Subqueries | ✅ |
+| CTEs | ✅ |
+| Window Functions | ✅ |
+| CASE Statements | ✅ |
+| Query Optimization | ✅ |
+| Indexing | ✅ |
+
+---
+
+# 📈 Analysis Performed
+
+## 🟢 Basic Analysis
+
+- Total number of tracks
+- Most popular songs
+- Genre distribution
+- Track frequency analysis
+- Explicit vs Non-explicit songs
+
+---
+
+## 🟡 Intermediate Analysis
+
+- Average danceability by genre
+- Average energy analysis
+- Longest songs
+- Genre popularity trends
+- Artist analysis
+
+---
+
+## 🔴 Advanced Analysis
+
+- Top 3 songs per genre using Window Functions
+- CTE based analytics
+- Above-average popularity songs
+- Energy vs Danceability insights
+- Query optimization with indexes
+
+---
+
+# 💡 Business Insights Generated
+
+📌 Most popular music genres  
+📌 Most energetic genres  
+📌 Impact of explicit songs on popularity  
+📌 User listening behavior trends  
+📌 High engagement music characteristics  
+
+---
+
+# ⚡ Query Optimization
 
 Indexes created on:
 
+```sql
 track_name
 track_genre
 popularity
+```
 
 Used:
 
+```sql
 EXPLAIN ANALYZE
+```
 
 to improve query performance.
 
-📷 Screenshots
-🗄 Database Schema
+---
 
-Add your schema screenshot here
+# 📷 Screenshots
 
-📊 SQL Query Execution
+## 🗄 Database Schema
 
-Add your query screenshots here
+> Add your schema screenshot here
 
-📈 Analysis Results
+---
 
-Add your result screenshots here
+## 📊 SQL Query Execution
 
-🚀 How to Run This Project
-1️⃣ Clone Repository
+> Add your query screenshots here
+
+---
+
+## 📈 Analysis Results
+
+> Add your result screenshots here
+
+---
+
+# 🚀 How to Run This Project
+
+## 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/yourusername/spotify-sql-analysis.git
-2️⃣ Open PostgreSQL
+```
+
+---
+
+## 2️⃣ Open PostgreSQL
 
 Create Database:
 
+```sql
 CREATE DATABASE spotify_analysis;
-3️⃣ Run SQL Scripts
+```
+
+---
+
+## 3️⃣ Run SQL Scripts
 
 Execute scripts sequentially:
 
+```bash
 01_create_table.sql
 02_data_cleaning.sql
 03_basic_analysis.sql
@@ -215,52 +265,77 @@ Execute scripts sequentially:
 05_advanced_analysis.sql
 06_business_insights.sql
 07_query_optimization.sql
-4️⃣ Import Dataset
+```
+
+---
+
+## 4️⃣ Import Dataset
 
 Import:
 
+```bash
 spotify_dataset.csv
+```
 
 into PostgreSQL.
 
-🧠 Key Learnings
+---
 
-✔ Real-world SQL workflow
-✔ PostgreSQL database handling
-✔ Data cleaning techniques
-✔ Analytical SQL querying
-✔ Window Functions & CTEs
-✔ Query Optimization
-✔ Git & GitHub workflow
-✔ End-to-End Data Analytics Project Development
+# 🧠 Key Learnings
 
-🌟 Future Improvements
+✔ Real-world SQL workflow  
+✔ PostgreSQL database handling  
+✔ Data cleaning techniques  
+✔ Analytical SQL querying  
+✔ Window Functions & CTEs  
+✔ Query Optimization  
+✔ Git & GitHub workflow  
+✔ End-to-End Data Analytics Project Development  
 
-🚀 Power BI Dashboard
-🚀 Tableau Dashboard
-🚀 Interactive Visualizations
-🚀 Stored Procedures
-🚀 Materialized Views
-🚀 Advanced Performance Tuning
-🚀 ETL Pipeline Integration
+---
 
-🏆 Project Highlights
+# 🌟 Future Improvements
 
-✅ End-to-End SQL Project
-✅ Real Dataset Analysis
-✅ PostgreSQL Implementation
-✅ Advanced SQL Queries
-✅ Business Insights
-✅ Resume-Ready Project
-✅ GitHub Portfolio Project
+🚀 Power BI Dashboard  
+🚀 Tableau Dashboard  
+🚀 Interactive Visualizations  
+🚀 Stored Procedures  
+🚀 Materialized Views  
+🚀 Advanced Performance Tuning  
+🚀 ETL Pipeline Integration  
 
-👨‍💻 Author
+---
+
+# 🏆 Project Highlights
+
+✅ End-to-End SQL Project  
+✅ Real Dataset Analysis  
+✅ PostgreSQL Implementation  
+✅ Advanced SQL Queries  
+✅ Business Insights  
+✅ Resume-Ready Project  
+✅ GitHub Portfolio Project  
+
+---
+
+# 👨‍💻 Author
+
 <div align="center">
-Ishika Gupta
+
+## Ishika Gupta
 
 💼 Aspiring Data Analyst & Business Analyst
 
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/ishikagup26)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ishika-gupta-5a29b4289/)
+
 </div>
+
+---
+
 <div align="center">
-⭐ If you found this project useful, give it a Star!
-</div> ```
+
+# ⭐ If you found this project useful, give it a Star!
+
+</div>
