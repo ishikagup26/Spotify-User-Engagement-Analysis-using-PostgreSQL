@@ -217,19 +217,19 @@ to improve query performance.
 
 ## 🗄 Database Schema
 
-> Add your schema screenshot here
+![Database Schema](screenshots/schema.png)
 
 ---
 
 ## 📊 SQL Query Execution
 
-> Add your query screenshots here
+![SQL Queries](screenshots/queries.png)
 
 ---
 
 ## 📈 Analysis Results
 
-> Add your result screenshots here
+![Insights](screenshots/insights.png)
 
 ---
 
@@ -238,7 +238,7 @@ to improve query performance.
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/spotify-sql-analysis.git
+git clone https://github.com/ishikagup26/Spotify-User-Engagement-Analysis-using-PostgreSQL.git
 ```
 
 ---
